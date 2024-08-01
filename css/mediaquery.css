@@ -1,0 +1,949 @@
+/* Resposive Media query start */
+@media only screen and (max-width: 1920px) {
+
+    /* contact section */
+    .contact-container .leftside-container .box {
+        width: 430px;
+        padding: 25px;
+    }
+
+    .contact-container .rightside-container form {
+        width: 430px;
+        display: block;
+        margin: 20px;
+    }
+}
+
+@media only screen and (max-width: 1620px) {
+
+    /* Home section */
+    #home {
+        margin: 20px 0;
+    }
+
+    /* Skill section */
+    .skill-container .skill-leftside .graphic {
+        width: 550px;
+    }
+
+    .skill-container .skill-rightside .website {
+        width: 550px;
+    }
+
+    /* Contact container */
+
+    .contact-container .leftside-container .box {
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+    /* Header section start */
+    header {
+        padding: 0 50px;
+    }
+
+    /* Home section */
+    #home {
+        height: 50vh;
+    }
+
+    .left-container img {
+        width: 350px;
+    }
+
+    .right-container h1.text-title {
+        font-size: 2.5rem;
+        width: 500px;
+    }
+
+    .right-container p.text-occ {
+        font-size: 1.2rem;
+    }
+
+    .btn-container button {
+        padding: 0.6rem;
+        width: 7rem;
+    }
+
+    .about-container p.title-info {
+        margin: 10px 100px;
+    }
+
+    /* Skill section */
+    #skill {
+        padding: 40px;
+    }
+
+    .skill-container .skill-leftside .graphic {
+        width: 430px;
+    }
+
+    .skill-container .skill-leftside .graphic .skill-info {
+        padding: 15px;
+    }
+
+    .skill-container .skill-leftside .graphic .skill-info .skill-soft {
+        width: 180px;
+        padding: 5px;
+    }
+
+    .skill-container .skill-rightside .website {
+        width: 430px;
+    }
+
+    .skill-container .skill-rightside .website .skill-info {
+        padding: 15px;
+    }
+
+    .skill-container .skill-rightside .website .skill-info .skill-soft {
+        width: 180px;
+        padding: 5px;
+    }
+
+    /* Contact container */
+
+    .contact-container .leftside-container .box {
+        width: 300px;
+    }
+
+    .contact-container .rightside-container {
+        margin: 0px;
+        padding: 0px;
+        align-self: center;
+    }
+
+    .contact-container .rightside-container form {
+        width: 350px;
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    #home {
+        height: 45vh;
+    }
+
+    /* Header section start */
+    header {
+        padding: 0 30px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-bar {
+        height: 410px;
+        position: absolute;
+        top: 70px;
+        left: -100%;
+        right: 0;
+        width: 100%;
+        background: black;
+        transition: 0.5s;
+        overflow: hidden;
+        z-index: 2;
+    }
+
+    .nav-bar ul {
+        display: block;
+        width: 100%;
+        margin: 45px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .nav-bar.active {
+        left: 0;
+        height: 400px;
+    }
+
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+
+    .nav-bar ul li a {
+        margin-bottom: 10px;
+        color: white;
+        display: inline-block;
+    }
+
+    .nav-bar ul li a.home-active {
+        color: white;
+    }
+
+    .nav-bar ul li a.home-active::after {
+        background-color: white;
+    }
+
+    .nav-bar ul li a::after {
+        background-color: white;
+    }
+
+    .nav-bar ul li a:hover::after {
+        background-color: white;
+        color: white;
+    }
+
+    /* Home section */
+    .left-container img {
+        width: 250px;
+        margin-right: 20px;
+    }
+
+    .right-container {
+        padding: 0px 0px 0px 20px;
+    }
+
+    .right-container h1.text-title {
+        font-size: 2rem;
+        width: 400px;
+    }
+
+    .right-container p.text-occ {
+        font-size: 1.2rem;
+    }
+
+    .btn-container button {
+        padding: 0.4rem;
+        width: 6.5rem;
+    }
+
+    /* About section */
+    #about {
+        padding: 20px;
+    }
+
+    .about-title-1 {
+        font-size: 2rem;
+    }
+
+
+
+    .about-container .about-info {
+        gap: 1rem;
+        margin: 3rem 0 3rem 0;
+    }
+
+    .about-container .about-info .expe,
+    .about-container .about-info .edu {
+        padding: 10px;
+    }
+
+    /* Skill section */
+    #skill {
+        padding: 20px;
+    }
+
+    .skill-title-1 {
+        font-size: 2rem;
+    }
+
+    /* .skill-container {
+        gap: 1.5rem;
+    } */
+
+    .skill-container .skill-leftside .graphic {
+        width: 350px;
+    }
+
+    .skill-container .skill-leftside .graphic h3 {
+        font-size: 1.1rem;
+    }
+
+    .skill-container .skill-leftside .graphic .skill-info {
+        padding: 0px;
+    }
+
+    .skill-container .skill-leftside .graphic .skill-info .skill-soft {
+        width: 150px;
+        padding: 5px;
+    }
+
+    .skill-container .skill-leftside .graphic .skill-info .skill-soft h4 {
+        font-size: 15px;
+    }
+
+    .skill-container .skill-leftside .graphic .skill-info .skill-soft .skill-icon {
+        margin-right: 5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .skill-container .skill-rightside .website {
+        width: 350px;
+    }
+
+    .skill-container .skill-rightside .website h3 {
+        font-size: 1.1rem;
+    }
+
+    .skill-container .skill-rightside .website .skill-info {
+        padding: 0px;
+    }
+
+    .skill-container .skill-rightside .website .skill-info .skill-soft {
+        width: 150px;
+        padding: 5px;
+    }
+
+    .skill-container .skill-rightside .website .skill-info .skill-soft .skill-icon {
+        margin-right: 5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .skill-container .skill-rightside .website .skill-info .skill-soft h4 {
+        font-size: 15px;
+    }
+
+    /* Project container */
+    #project {
+        padding: 20px;
+    }
+
+    .project-title-1 {
+        font-size: 2rem;
+    }
+
+    .project-container {
+        gap: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .project-container .detail-container {
+        margin-top: 0px;
+        width: 350px;
+        padding-bottom: 20px;
+    }
+
+    .project-container .detail-container .info-container img {
+        width: 300px;
+    }
+
+    /* Contact container */
+    .contact-title-1 {
+        font-size: 2rem;
+    }
+
+    .contact-container .leftside-container .box {
+        width: 250px;
+    }
+
+    .contact-container .rightside-container form {
+        width: 280px;
+        padding: 0px;
+    }
+
+    .contact-container .rightside-container form input,
+    .contact-container .rightside-container form .text-area,
+    .contact-container .rightside-container form .contact-button {
+        width: 280px;
+        margin: 20px 0;
+    }
+
+}
+
+@media only screen and (max-width: 770px) {
+
+    /* Home section */
+    #home {
+        height: auto;
+        margin: 100px 0;
+    }
+
+    .left-container img {
+        width: 250px;
+        margin-right: 10px;
+    }
+
+    .right-container {
+        padding: 0px 0px 0px 10px;
+    }
+
+    .right-container h1.text-title {
+        font-size: 1.5rem;
+        width: 310px;
+    }
+
+    .right-container h1 span {
+        font-size: 1.7rem;
+    }
+
+    .right-container p.text-occ {
+        font-size: 1rem;
+    }
+
+    .btn-container button {
+        padding: 0.5rem;
+        width: 5.5rem;
+        font-size: 10px;
+    }
+
+    .socialmedia-container i {
+        font-size: 1.5rem;
+    }
+
+    /* About section */
+    #about {
+        padding: 15px;
+    }
+
+    .about-title {
+        font-size: 0.6rem;
+    }
+
+    .about-title-1 {
+        font-size: 1.5rem;
+    }
+
+    .about-container p.title-info {
+        margin: 50px;
+        font-size: 15px;
+    }
+
+    .about-container .about-info {
+        gap: 0.6rem;
+        margin: 10px;
+    }
+
+    .about-container .about-info .expe,
+    .about-container .about-info .edu {
+        width: 300px;
+    }
+
+    .about-container .about-info .expe i,
+    .about-container .about-info .edu i {
+        font-size: 1.5rem;
+    }
+
+    .about-container .about-info .expe h3,
+    .about-container .about-info .edu h3 {
+        font-size: 15px;
+    }
+
+    .about-container .about-info .expe p,
+    span {
+        font-size: 13px;
+    }
+
+    .about-container .about-info .edu p,
+    span {
+        font-size: 13px;
+    }
+
+    /* Skill section */
+    .skill-title {
+        font-size: 0.6rem;
+    }
+
+    .skill-title-1 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .skill-container {
+        /* gap: 1rem; */
+        margin: 0px;
+    }
+
+    .skill-container .skill-leftside .graphic,
+    .skill-container .skill-rightside .website {
+        width: 280px;
+    }
+
+    .skill-container .skill-leftside .graphic h3,
+    .skill-container .skill-rightside .website h3 {
+        font-size: 0.9rem;
+        margin: 5px 0;
+    }
+
+    .skill-container .skill-leftside .graphic .skill-info .skill-soft,
+    .skill-container .skill-rightside .website .skill-info .skill-soft {
+        width: 120px;
+        padding: 5px;
+    }
+
+    .skill-container .skill-leftside .graphic .skill-info .skill-soft h4,
+    .skill-container .skill-rightside .website .skill-info .skill-soft h4 {
+        font-size: 10px;
+    }
+
+    .skill-container .skill-leftside .graphic .skill-info .skill-soft span {
+        font-size: 12px;
+    }
+
+
+    /* Project container */
+    #project {
+        padding: 20px;
+    }
+
+    .project-title {
+        font-size: 0.6rem;
+    }
+
+    .project-title-1 {
+        font-size: 1.5rem;
+    }
+
+    .project-container {
+        gap: 1rem;
+        margin-top: 10px;
+    }
+
+    .project-container .detail-container {
+        margin-top: 0px;
+        width: 270px;
+        padding-bottom: 20px;
+    }
+
+    .project-container .detail-container .info-container img {
+        width: 240px;
+        margin: 10px;
+    }
+
+    /* Contact container */
+    .contact-title {
+        font-size: 0.6rem;
+    }
+
+    .contact-title-1 {
+        font-size: 1.5rem;
+    }
+
+    .contact-container .leftside-container {
+        margin: 0px;
+    }
+
+    .contact-container .leftside-container .box {
+        width: 220px;
+        padding: 15px;
+    }
+
+    .contact-container .leftside-container .box i {
+        font-size: 25px;
+    }
+
+    .contact-container .rightside-container form {
+        width: 250px;
+        padding: 0px;
+    }
+
+    .contact-container .rightside-container form input,
+    .contact-container .rightside-container form .text-area,
+    .contact-container .rightside-container form .contact-button {
+        width: 250px;
+        margin: 15px 0;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    #home {
+        width: 100%;
+        display: block;
+        margin: 30px 0;
+        height: auto;
+        min-height: auto;
+    }
+
+    .left-container {
+        width: 100%;
+
+    }
+
+    .left-container img {
+        width: 220px;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-left: 30px; */
+    }
+
+    .right-container {
+        width: 100%;
+        padding: 0px;
+        margin-top: 10px;
+        /* padding-left: 30px; */
+    }
+
+    .right-container h1.text-title {
+        font-size: 2.2rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-container h1 span {
+        font-size: 2.2rem;
+    }
+
+    .right-container p.text-occ {
+        font-size: 1.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-container button {
+        padding: 0.5rem;
+        width: 5rem;
+        font-size: 8px;
+    }
+
+    .socialmedia-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .socialmedia-container i {
+        font-size: 1.5rem;
+    }
+
+    /* About section */
+    #about {
+        padding: 10px;
+    }
+
+    .about-container p.title-info {
+        margin: 20px;
+        font-size: 15px;
+    }
+
+    .about-container .about-info {
+        gap: 0.5rem;
+        margin: 5px;
+    }
+
+    .about-container .about-info .expe,
+    .about-container .about-info .edu {
+        width: 210px;
+    }
+
+    .about-container .about-info .expe h3,
+    .about-container .about-info .edu h3 {
+        font-size: 13px;
+    }
+
+    .about-container .about-info .expe p,
+    span {
+        font-size: 10px;
+    }
+
+    .about-container .about-info .edu p,
+    span {
+        font-size: 10px;
+    }
+
+    /* Skill section */
+    #skill {
+        padding: 10px;
+    }
+
+    .skill-title-1 {
+        margin-bottom: 10px;
+    }
+
+    .skill-container {
+        /* gap: 0.5rem; */
+        margin: 0px;
+    }
+
+    .skill-container .skill-leftside .graphic,
+    .skill-container .skill-rightside .website {
+        width: 210px;
+    }
+
+    .skill-container .skill-leftside .graphic h3,
+    .skill-container .skill-rightside .website h3 {
+        font-size: 0.8rem;
+        margin: 4px 0;
+    }
+
+    .skill-container .skill-leftside .graphic .skill-info,
+    .skill-container .skill-rightside .website .skill-info {
+        gap: 0rem;
+    }
+
+    .skill-container .skill-leftside .graphic .skill-info .skill-soft,
+    .skill-container .skill-rightside .website .skill-info .skill-soft {
+        width: 125px;
+        padding: 5px;
+    }
+
+    .skill-container .skill-leftside .graphic .skill-info .skill-soft h4,
+    .skill-container .skill-rightside .website .skill-info .skill-soft h4 {
+        font-size: 10px;
+    }
+
+    .skill-container .skill-leftside .graphic .skill-info .skill-soft span {
+        font-size: 10px;
+    }
+
+    /* Project container */
+    #project {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .project-container {
+        gap: 0.5rem;
+        margin-top: 10px;
+    }
+
+    .project-container .detail-container {
+        margin-top: 0px;
+        width: 210px;
+        padding-bottom: 20px;
+    }
+
+    .project-container .detail-container .info-container img {
+        width: 190px;
+        margin: 10px;
+    }
+
+    .project-container .detail-container h2 {
+        font-size: 12px;
+    }
+
+    /* Contact container */
+    .contact-container {
+        margin-bottom: 10px;
+    }
+
+    .contact-container .leftside-container {
+        margin-right: 10px;
+    }
+
+    .contact-container .leftside-container .box {
+        width: 180px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .contact-container .leftside-container .box i {
+        font-size: 25px;
+    }
+
+    .contact-container .rightside-container form {
+        width: 100%;
+        padding: 0px;
+        margin: 10px;
+    }
+
+    .contact-container .rightside-container form input,
+    .contact-container .rightside-container form .contact-button {
+        width: 200px;
+        margin: 10px 0;
+        height: 40px;
+    }
+
+    .contact-container .rightside-container form .text-area {
+        width: 200px;
+        margin: 10px 0;
+    }
+
+    .contact-container .leftside-container .box p {
+        font-size: 12px;
+    }
+
+    /* -----------------  section Footer -------------------- */
+    .footer-container {
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    /* Home section */
+    .right-container h1.text-title {
+        font-size: 1.5rem;
+    }
+
+    .right-container h1 span {
+        font-size: 1.5rem;
+    }
+
+    .right-container p.text-occ {
+        font-size: 1rem;
+
+    }
+
+    /* About section */
+    .about-container .about-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-container .about-info .expe,
+    .about-container .about-info .edu {
+        width: 250px;
+    }
+
+    /* Skill section */
+
+    .skill-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* Left side */
+    .skill-container .skill-leftside,
+    .skill-container .skill-rightside {
+        width: 100%;
+    }
+
+    .skill-container .skill-leftside,
+    .skill-container .skill-rightside {
+        float: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skill-container .skill-leftside .graphic,
+    .skill-container .skill-rightside .website {
+        width: 300px;
+        margin: 20px;
+    }
+
+    .skill-container .skill-leftside .graphic .skill-info,
+    .skill-container .skill-rightside .website .skill-info {
+        gap: 1rem;
+    }
+
+    /* Project section */
+
+    .project-container .detail-container {
+        width: 300px;
+    }
+
+    .project-container .detail-container .info-container img {
+        width: 270px;
+        margin: 10px;
+    }
+
+    /* Contact section */
+    .contact-container {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .contact-container .leftside-container,
+    .contact-container .rightside-container {
+        width: 100%;
+        margin: 0px;
+
+    }
+
+    .contact-container .leftside-container .box {
+        width: 300px;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-container .rightside-container {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-container .rightside-container form {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .contact-container .rightside-container form input,
+    .contact-container .rightside-container form .text-area,
+    .contact-container .rightside-container form .contact-button {
+        width: 300px;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    /* Header section start */
+    .logo a,
+    i {
+        font-size: 25px;
+    }
+
+    /* Home section */
+    .left-container img {
+        margin-left: 20px;
+    }
+
+    .right-container {
+        padding-left: 5px;
+    }
+
+    .right-container h1.text-title {
+        font-size: 1.3rem;
+    }
+
+    .right-container h1 span {
+        font-size: 1.3rem;
+    }
+
+    .right-container p.text-occ {
+        font-size: 0.8rem;
+
+    }
+
+    /* Skill section */
+    .skill-container .skill-leftside .graphic,
+    .skill-container .skill-rightside .website {
+        width: 250px;
+    }
+
+    /* Project section */
+
+    .project-container .detail-container {
+        width: 250px;
+    }
+
+    .project-container .detail-container .info-container img {
+        width: 230px;
+        margin: 10px;
+    }
+
+    /* Contact section */
+    .contact-container .leftside-container .box {
+        width: 250px;
+    }
+
+    .contact-container .rightside-container form input,
+    .contact-container .rightside-container form .text-area,
+    .contact-container .rightside-container form .contact-button {
+        width: 250px;
+
+    }
+}
